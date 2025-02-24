@@ -1,0 +1,45 @@
+:root{
+    --color-1: #252525;
+    --color-2: #25252580;
+    --color-3: #FFFFFF;
+}
+@font-face {
+    font-family: "AvenirLTStd-Heavy";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Heavy.otf);
+}
+@font-face {
+    font-family: "AvenirLTStd-Roman";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: "PlayfairDisplay-Bold";
+    src: url(../storage/fonts/Playfair-Display/static/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../storage/fonts/Work-Sans/static/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/fonts/Work-Sans/static/WorkSans-Medium.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url(../storage/fonts/Work-Sans/static/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url(../storage/fonts/Work-Sans/static/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../storage/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}

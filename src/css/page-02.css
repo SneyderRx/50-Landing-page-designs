@@ -1,0 +1,85 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-3);
+    padding: 64px;
+}
+header{
+    display: flex;
+    height: 56vh;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    width: 48%;
+    gap: 24px;
+    margin-right: 17px;
+}
+.title h1{
+    font-family: "AvenirLTStd-Heavy";
+    font-size: 64px;
+    color: var(--color-1);
+    line-height: 80px;
+}
+.title p{
+    font-family: "AvenirLTStd-Roman";
+    font-size: 26px;
+    color: var(--color-2);
+}
+.title a{
+    font-family: "AvenirLTStd-Roman";
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    color: var(--color-3);
+    background: var(--color-1);
+    padding: 20px 50px;
+    border-radius: 16px;
+}
+.img__left{
+    /* background-color: var(--color-1); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 48%;
+    height: 100%;
+}
+.img__left img{
+    object-fit: cover;
+}
+.img__right{
+    /* background-color: var(--color-2); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 48%;
+    height: 100%;
+}
+.img__right img{
+    object-fit: cover;
+}
+main{
+    display: flex;
+    /* position: relative; */
+}
+.images__bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 91.5vw;
+    height: 36vh;
+    margin-top: 72px;
+}
+.images__bottom p{
+    font-family: "AvenirLTStd-Heavy";
+    font-size: 40px;
+    color: var(--color-4);
+}

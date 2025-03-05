@@ -4,3 +4,105 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background: var(--color-3);
+    display: flex;
+}
+.img{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    width: 48vw;
+    height: 100vh; /* Revisar al poner tamaño al div__rigth */
+    margin-top: 67px;
+}
+.img img{
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.div__rigth{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 49vw;
+    height: 100%;
+    padding: 80px 112px;
+    gap: 88px;
+}
+.div__top{
+    display: flex;
+}
+.div__top__text{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 32px;
+}
+.div__top__text h1{
+    font-family: "AvenirLTStd-Heavy";
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--color-1);
+}
+.div__top__text p{
+    font-family: "AvenirLTStd-Roman";
+    font-size: 26px;
+    color: var(--color-2);
+}
+.div__top__text a{
+    font-family: "AvenirLTStd-Roman";
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    color: var(--color-3);
+    background: var(--color-1);
+    padding: 16px 34px;
+    border-radius: 16px;
+}
+.div__bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.div__bottom__text1{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.div__bottom__text1 p{
+
+}
+.div__bottom__text1 p:first-child{
+    font-family: "AvenirLTStd-Heavy";
+    font-size: 32px;
+    color: var(--color-5);
+}
+.div__bottom__text1 p:last-child{
+    font-family: "AvenirLTStd-Roman";
+    font-size: 24px;
+    color: var(--color-2);
+}
+.div__bottom__text2{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.div__bottom__text2 p{
+
+}
+.div__bottom__text2 p:first-child{
+    font-family: "AvenirLTStd-Heavy";
+    font-size: 32px;
+    color: var(--color-5);
+}
+.div__bottom__text2 p:last-child{
+    font-family: "AvenirLTStd-Roman";
+    font-size: 24px;
+    color: var(--color-2);
+}

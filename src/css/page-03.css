@@ -1,0 +1,67 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-3);
+    padding: 64px;
+}
+header{
+    display: flex;
+    width: auto;
+    margin-bottom: 10%;
+}
+.title{
+    display: flex;
+    width: 100svw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* margin-top: 50px; */
+    padding-top: 58px;
+}
+.title h1{
+    font-family: "AvenirLTStd-Heavy";
+    font-size: 88px;
+    color: var(--color-1);
+    line-height: 80px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    font-family: "AvenirLTStd-Roman";
+    width: 88svw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* margin-top: 50px; */
+    padding-top: 58px;
+    padding-left: 113px;
+}
+.text p{
+    font-size: 26px;
+    color: var(--color-2);
+    padding-bottom: 16px;
+}
+.text a{
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    color: var(--color-3);
+    background: var(--color-1);
+    padding: 16px 34px;
+    border-radius: 16px;
+}
+main{
+    display: flex;
+}
+.img{
+    display: flex;
+    width: 100%;
+}
+.img img{
+    object-fit: cover;
+}
+
+
+    
